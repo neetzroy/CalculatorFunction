@@ -36,4 +36,4 @@ function myCalculator()
         return console.log('invalid input')
     }
 }
-myCalculator()
+module.exports={myCalculator}
